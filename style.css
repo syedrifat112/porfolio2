@@ -18,7 +18,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 30px 160px;
+    padding: 30px 160px;
 }
 
 .nav-title {
@@ -124,4 +124,130 @@ main {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+
+
+/* what i do section */
+
+.what-i-do {
+    margin-top: 130px;
+}
+
+.what-i {
+    margin: 30px 150px 50px 150px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+}
+
+.skills-container {
+    text-align: left;
+    display: flex;
+    gap: 24px;
+    margin: 0 160px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.skill-title-description {
+    color: #757575;
+}
+
+.sec-header {
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 100px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.resume {
+    display: flex;
+    gap: 71px;
+    margin: 0 160px;
+}
+
+
+.resume-title {
+    margin-bottom: 30px;
+}
+
+.resume-p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.resume-a {
+    margin-top: 10px;
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.btn-d {
+    background-color: #FD6E0A;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    width: 140px;
+    margin: 30px 500px 50px 500px;
+    padding: 18px 17px;
+}
+
+.last {
+    
+    background: #FFF8F3;
+    height: 500px;
+    padding: 40px;
+
+
+}
+.last-div {
+    display: flex;
+    margin: 30px 160px;
+    align-items: center;
+    padding-top: 220px;
+   
+}
+.icon-p {
+    margin-right: 30px;
+}
+.form ul li {
+    list-style: none;
+}
+
+.last-b {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.last-p {
+    
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color:#474747;
 }
